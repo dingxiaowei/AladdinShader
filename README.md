@@ -3,7 +3,7 @@
 这个是关于Unity3D Shader的Demo，目前是自己博客专栏《阿拉丁Unity3D Shader编程》中的shader案例的代码搜集。
 
 ## 说明
-由于github上传貌似有问题，可能是网络问题，完整工程地址：https://gitee.com/dingxiaowei/AladdinShader ， 以这个更新为主！
+由于代码上传大小限制，这里只展示效果图，具体代码看：https://gitee.com/dingxiaowei/AladdinShader
 
 ## 专栏地址
 
@@ -38,6 +38,21 @@
 ![](Effects/Volume3/41.png)
 
 ![](Effects/Volume3/5.gif)
+
+#### Volume 4 常见2D贴图效果
+
+##### 图片灰态
+![](Effects/Volume4/dark.gif)
+
+##### 边缘高光
+![](Effects/Volume4/outline.gif)
+
+
+##### 圆角头像
+
+![](Effects/Volume4/round.gif)
+
+#### 不断添加中。。。
 
 ## 参考资料:
 
