@@ -42,15 +42,20 @@
 #### Volume 4 常见2D贴图效果
 
 ##### 图片灰态
+
 ![](Effects/Volume4/dark.gif)
 
 ##### 边缘高光
-![](Effects/Volume4/outline.gif)
 
+![](Effects/Volume4/outline.gif)
 
 ##### 圆角头像
 
 ![](Effects/Volume4/round.gif)
+
+##### 图片模糊
+
+![](Effects/Volume4/blur.gif)
 
 #### 不断添加中。。。
 
