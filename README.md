@@ -2,9 +2,6 @@
 
 这个是关于Unity3D Shader的Demo，目前是自己博客专栏《阿拉丁Unity3D Shader编程》中的shader案例的代码搜集。
 
-## 说明
-由于代码上传大小限制，这里只展示效果图，具体代码看：https://gitee.com/dingxiaowei/AladdinShader
-
 ## 专栏地址
 
 [阿拉丁Shader编程](https://aladdin.blog.csdn.net/article/category/6670402)
@@ -57,6 +54,10 @@
 
 ![](Effects/Volume4/blur.gif)
 
+#### Volume 5 卡通渲染
+
+![](Effects/Volume5/2.png)
+
 #### 不断添加中。。。
 
 ## 参考资料:
@@ -67,7 +68,7 @@
 
 ###3.[lupeng的博客](http://blog.csdn.net/u011047171)
 
-###4.[自己的博客](https://aladdin.blog.csdn.net/article/category/6670402)
+###4.[自己的博客](http://dingxiaowei.cn/tags/Shader/)
 
-## 更多系列教程
-https://blog.csdn.net/dingxiaowei2013/article/category/6670402
+## 更多教程
+http://dingxiaowei.cn/tags/Shader/

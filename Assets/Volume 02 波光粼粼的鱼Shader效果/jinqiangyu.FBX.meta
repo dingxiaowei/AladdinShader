@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: a32c0103262366448a5ff4ef7c3b0995
+timeCreated: 1536927897
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: body
+    100004: //RootNode
+    100006: mei
+    100008: mei2
+    100010: q3q
+    100012: q4
+    100014: q5
+    100016: q6
+    100018: q7
+    100020: tou
+    100022: w1
+    100024: w2
+    100026: w3
+    100028: yan
+    100030: yan2
+    100032: yanpi
+    100034: yanpi2
+    400000: Bip01
+    400002: body
+    400004: //RootNode
+    400006: mei
+    400008: mei2
+    400010: q3q
+    400012: q4
+    400014: q5
+    400016: q6
+    400018: q7
+    400020: tou
+    400022: w1
+    400024: w2
+    400026: w3
+    400028: yan
+    400030: yan2
+    400032: yanpi
+    400034: yanpi2
+    4300000: body
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/tou
+        weight: 1
+      - path: Bip01/tou/mei
+        weight: 1
+      - path: Bip01/tou/mei2
+        weight: 1
+      - path: Bip01/tou/yan
+        weight: 1
+      - path: Bip01/tou/yan2
+        weight: 1
+      - path: Bip01/tou/yanpi
+        weight: 1
+      - path: Bip01/tou/yanpi2
+        weight: 1
+      - path: Bip01/w1
+        weight: 1
+      - path: Bip01/w1/q3q
+        weight: 1
+      - path: Bip01/w1/q4
+        weight: 1
+      - path: Bip01/w1/q5
+        weight: 1
+      - path: Bip01/w1/q6
+        weight: 1
+      - path: Bip01/w1/q7
+        weight: 1
+      - path: Bip01/w1/w2
+        weight: 1
+      - path: Bip01/w1/w2/w3
+        weight: 1
+      - path: body
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
