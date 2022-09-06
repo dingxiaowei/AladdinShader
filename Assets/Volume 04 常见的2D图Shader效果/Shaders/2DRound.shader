@@ -31,6 +31,7 @@ Shader "阿拉丁Shader编程/4-3.2D圆角头像" {
 				float2 ModeUV: TEXCOORD0;
 				float2 RadiusBuceVU : TEXCOORD1;
 			};
+
 			v2f vert(appdata_base v)
 			{
 				v2f o;

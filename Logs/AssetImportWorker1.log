@@ -1,0 +1,22 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.36f1c1 (f1b5774ca487) revision 15840631'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Professional' Language: 'zh' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity 2020.3.36f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Study/github/AladdinShader
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53890
+Successfully changed project path to: D:/Study/github/AladdinShader
+D:/Study/github/AladdinShader
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.
