@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 4-4 2DBlur
-  m_Shader: {fileID: 4800000, guid: c09b661ce4296fe4a967e433edd2df07, type: 3}
-  m_ShaderKeywords: 
+  m_Name: 4-6 2DOpenEye
+  m_Shader: {fileID: 4800000, guid: d542e63667392e848ad368f588c14e26, type: 3}
+  m_ShaderKeywords: UNITY_UI_ALPHACLIP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -80,10 +80,10 @@ Material:
     - _StencilWriteMask: 255
     - _TextureSize: 640
     - _UVSec: 0
-    - _UseUIAlphaClip: 0
+    - _UseUIAlphaClip: 1
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Param: {r: 0.6, g: 0.3, b: 1, a: 1}
   m_BuildTextureStacks: []
