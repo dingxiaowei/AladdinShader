@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 4-7 2DTransparentBlur
-  m_Shader: {fileID: 4800000, guid: 08690c5a55a9e984e9604514798d9579, type: 3}
-  m_ShaderKeywords: PIEXLSNAP_ON UNITY_UI_ALPHACLIP
+  m_Name: 2DBlur
+  m_Shader: {fileID: 4800000, guid: a66ca9d89dd4e51489a6beddc37f8df3, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6d4b2b44dde79ee439950a74392bbe91, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -56,39 +56,28 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - PiexlSnap: 1
-    - _Alpha: 0.533
-    - _BlurRadius: 4.1
+    - _BlurRadius: 10
+    - _BlurSize: 6.9
     - _BumpScale: 1
-    - _ColorMask: 15.9
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GrayRate: 0.195
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PixelSize: 64
-    - _Round: 1.85
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Stencil: 0
-    - _StencilComp: 13
-    - _StencilOp: 0
-    - _StencilReadMask: 215.2
-    - _StencilWriteMask: 286.1
     - _TextureSize: 640
     - _UVSec: 0
-    - _UseUIAlphaClip: 1
     - _ZWrite: 1
-    - _blurSizeXY: 1.5
+    - _blurSizeXY: 4.9
     m_Colors:
-    - _Color: {r: 0.46226418, g: 0.3811499, b: 0.3811499, a: 1}
+    - _BlendColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
+    - _Color: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Param: {r: 0.6, g: 0.3, b: 1, a: 1}
   m_BuildTextureStacks: []
