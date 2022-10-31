@@ -108,9 +108,15 @@ Shader "阿拉丁Shader编程/4-6.2DOpenEye"
 				half4 color = IN.color;
 				half x = IN.texcoord.x - 0.5;
 				half y = IN.texcoord.y - 0.5;
-				//half oval = x * x / (_Param.x * _Param.x) + y * y / (_Param.y * _Param.y);
-				half oval = x * x / (3 * _Round * 3 * _Round) + y * y / (_Round * _Round);
-				color.a = oval;
+				if(_Round > 0)
+				{
+					half oval = x * x / (3 * _Round * 3 * _Round) + y * y / (_Round * _Round);
+					color.a = oval;
+				}
+				else
+				{
+					color.a = 1;
+				}
 
 				#ifdef UNITY_UI_CLIP_RECT
 						color.a *= UnityGet2DClipping(IN.worldPosition.xy, _ClipRect);
